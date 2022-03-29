@@ -7,7 +7,7 @@ This is a tool that converts images to ASCII Art.
 Its quite simple, it gets the average of a pixel and maps it to a character.
 
 ## How do I use it?
-You can run it by installing [Deno](https://deno.land/) and running `deno run --allow-net --allow-read src/main.ts (image) (font)`
+First, resize the image to a small size so it fits your terminal, then, you can run it by installing [Deno](https://deno.land/) and running `deno run --allow-net --allow-read src/main.ts (image) (font)`
 
 ## How can I help?
 You can contribute to the code by [making a pull request](https://github.com/pjalsGit/askew/issues?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc), or letting me know of issues by [making an issue](https://github.com/pjalsGit/askew/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
@@ -15,5 +15,6 @@ You can contribute to the code by [making a pull request](https://github.com/pja
 ### To-do
   - [x] Usable State
   - [x] Color
+  - [ ] Automatically resizes images
   - [ ] Images can be sent through pipes
     - [ ] Fast enough for video
